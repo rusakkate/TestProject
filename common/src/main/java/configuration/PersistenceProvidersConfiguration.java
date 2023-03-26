@@ -1,4 +1,4 @@
-package by.rusak.configuration;
+package configuration;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,7 +57,7 @@ public class PersistenceProvidersConfiguration {
         properties.put("hibernate.default_schema", "testproject");
         properties.put("current_session_context_class", "org.springframework.orm.hibernate5.SpringSessionContext");
 
-        properties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQL10Dialect");
+        properties.put("hibernate.dialect", "org.hibernate.dialect.dialect.MySQLDialect");
         properties.put("hibernate.connection.characterEncoding", "utf8mb4");
         properties.put("hibernate.connection.CharSet", "utf8mb4");
         properties.put("hibernate.connection.useUnicode", "true");
