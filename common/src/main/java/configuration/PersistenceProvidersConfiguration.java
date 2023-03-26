@@ -1,4 +1,4 @@
-package by.rusak.configuration;
+package configuration;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
